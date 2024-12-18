@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bored2Active</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bored2Active - Activity & Fun Generator</h1>
+
+        <!-- Activity Suggestion Section -->
+        <div class="card">
+            <h2>Activity Idea 🎯</h2>
+            <p id="activity">Click the button to get an activity!</p>
+            <button onclick="fetchActivity()">New Activity</button>
+        </div>
+
+        <!-- Joke Section -->
+        <div class="card">
+            <h2>Random Joke 😂</h2>
+            <p id="joke">Click the button for a joke!</p>
+            <button onclick="fetchJoke()">New Joke</button>
+        </div>
+
+        <!-- Random Dog Section -->
+        <div class="card">
+            <h2>Random Dog 🐶</h2>
+            <img id="dogImage" src="" alt="Cute Dog" />
+            <button onclick="fetchDogImage()">New Dog</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

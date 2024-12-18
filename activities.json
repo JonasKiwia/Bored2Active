@@ -1,0 +1,10 @@
+[
+    { "id": 1, "activity": "Try a new recipe" },
+    { "id": 2, "activity": "Learn 5 words in a new language" },
+    { "id": 3, "activity": "Take a 30-minute walk outdoors" },
+    { "id": 4, "activity": "Write a short story" },
+    { "id": 5, "activity": "Meditate for 10 minutes" },
+    { "id": 6, "activity": "Clean your workspace" },
+    { "id": 7, "activity": "Watch a documentary" },
+    { "id": 8, "activity": "Sketch or paint something creative" }
+]
